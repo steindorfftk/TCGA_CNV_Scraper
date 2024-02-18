@@ -37,11 +37,11 @@ def read_genes():
 def main():
 	start_time = time.time()
 	i = 0
-	genes = read_genes()
 	print(f'Scraping {len(genes)} genes') 
 	if 'Output.csv' not in os.listdir():
 		with open('Output.csv','w') as data_t:
 			data_t.write('Gene;Count;Cancers\n')
+	genes = read_genes()
 	genome_dic = {}
 	firefox_options = Options()
 	firefox_options.add_argument('--headless')
