@@ -1,0 +1,1 @@
+Scrapes basic information on Copy Number Variation (CNV) data from TCGA Copy Number Portal (https://portals.broadinstitute.org/tcga/gistic/browseGisticByGene#). Just add the target genes in the Gene_names.txt file (one per line) and run main.py
